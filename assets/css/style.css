@@ -23,9 +23,16 @@ body {
     font-size: 48px;
 }
 
+.profile {
+    justify-content: flex-start;
+    max-height: 100%;
+    max-width: 100%;
+}
+
 h2 {
     padding: 20px;
     font-size: 35px;
+    text-align: center;
 }
 
 nav {
@@ -56,4 +63,14 @@ nav a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #000000;
     color: #ffffff;
+}
+
+.key-link {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
 }
