@@ -82,26 +82,3 @@ nav a {
     color: var(--light);
     text-align: center;
 }
-
-@media screen and (min-width: 992px) and (max-width: 1200px) {
-    section,
-    nav {
-      display: flex;
-      margin-left: 1230px;
-      width: 30%;
-      height: 70px;
-      padding: 7px;
-  }
-
-    nav a:hover {
-    color: turquoise;
-  }
-
-    nav a {
-        color: firebrick;
-        justify-content: flex-start;
-        padding-top: 15px;
-        font-size: 1.5rem;
-    }
-
-}
