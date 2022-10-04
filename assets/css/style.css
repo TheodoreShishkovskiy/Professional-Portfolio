@@ -52,11 +52,11 @@ nav a {
 }
 
 div {
-    margin-top: 50px;
     background-color: var(--dark);
     padding-left: 150px;
+    margin-top: 50px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 /* Css edits to all parts of section element */
 .content {
@@ -83,4 +83,20 @@ div {
     background-color: var(--dark);
     color: var(--light);
     text-align: center;
+}
+
+@media screen and (max-width: 922px) {
+    nav,
+    header,
+    section {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 612px) {
+    nav,
+    header,
+    section {
+        width: 100%;
+    }
 }
